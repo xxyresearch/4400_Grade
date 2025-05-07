@@ -18,6 +18,12 @@ print_subsection() {
   echo "--- $1 ($2 pts)"
 }
 
+print_warning() {
+  echo "#######################################"
+  echo "FOLLOWINGS ARE RUNTEST FOR DOUBLE CHECK"
+  echo "#######################################"
+}
+
 pause() {
   read -p "Press Enter to continue..."
 }
@@ -53,6 +59,8 @@ print_subsection "Correct calls to lib440 functions" 4
 print_subsection "Correct calls to user-defined functions" 3
 print_subsection "Void, char, int, float returns" 4
 ./AsmTest.sh "$COMPILER" INPUTS/fcall*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/fcall*.c
 pause
 
 ### ========== Expressions ==========
@@ -60,14 +68,20 @@ print_section "Expressions" 10
 
 print_section "Character, integer, and float literals" 3
 ./AsmTest.sh "$COMPILER" INPUTS/expr_literal*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/expr_literal*.c
 pause
 
 print_section "Reading local variables and parameters" 3
 ./AsmTest.sh "$COMPILER" INPUTS/expr_locals*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/expr_locals*.c
 pause
 
 print_section "Reading global variables" 4
 ./AsmTest.sh "$COMPILER" INPUTS/expr_g*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/expr_g*.c
 pause
 
 ### ========== Operators ==========
@@ -75,32 +89,46 @@ print_section "Operators" 15
 
 print_section "Binary operators (+, -, *, /, %)" 10
 ./AsmTest.sh "$COMPILER" INPUTS/ops_binary*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/ops_binary*.c
 pause
 
 print_section "Unary operators and type conversions" 5
 ./AsmTest.sh "$COMPILER" INPUTS/ops_unary*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/ops_binary*.c
 pause
 
 ### ========== Variable Writes ==========
 print_section "Variable Writes" 15
-
 print_section "Local variable initialization" 3
 ./AsmTest.sh "$COMPILER" INPUTS/init_lv*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/init_lv*.c
 pause
 
 print_section "Assignment expressions (=)" 4
 ./AsmTest.sh "$COMPILER" INPUTS/assign_lv*.c
 ./AsmTest.sh "$COMPILER" INPUTS/assign_gv*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/assign_lv*.c
+./RunTest_Sum.sh "$COMPILER" INPUTS/assign_gv*.c
 pause
 
 print_section "Update assignments (+=, -=, *=, /=)" 4
 ./AsmTest.sh "$COMPILER" INPUTS/update_lv*.c
 ./AsmTest.sh "$COMPILER" INPUTS/update_gv*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/update_lv*.c
+./RunTest_Sum.sh "$COMPILER" INPUTS/update_gv*.c
 pause
 
 print_section "Pre and post increment/decrement" 4
 ./AsmTest.sh "$COMPILER" INPUTS/incdec_lv*.c
 ./AsmTest.sh "$COMPILER" INPUTS/incdec_gv*.c
+print_warning
+./RunTest_Sum.sh "$COMPILER" INPUTS/incdec_lv*.c
+./RunTest_Sum.sh "$COMPILER" INPUTS/incdec_gv*.c
 pause
 
 ### ========== Arrays ==========
@@ -134,6 +162,7 @@ print_section "Passing string literals as char[]" 3
 ./AsmTest.sh "$COMPILER" INPUTS/A_string_nc.c
 ./AsmTest.sh "$COMPILER" INPUTS/A_string_yc.c
 ./AsmTest.sh "$COMPILER" INPUTS/hewo.c
+./RunTest_Sum.sh "$COMPILER" INPUTS/hewo.c
 pause
 
 ### ========== Special Method <clinit> ==========
