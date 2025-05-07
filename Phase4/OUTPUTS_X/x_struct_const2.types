@@ -1,0 +1,18 @@
+File x_struct_const2.c Line 11: expression has type struct bizarre
+File x_struct_const2.c Line 12: expression has type int
+File x_struct_const2.c Line 13: expression has type int
+File x_struct_const2.c Line 14: expression has type const int
+File x_struct_const2.c Line 17: expression has type const struct bizarre
+File x_struct_const2.c Line 18: expression has type const int
+File x_struct_const2.c Line 19: expression has type const int
+File x_struct_const2.c Line 20: expression has type const int
+File x_struct_const2.c Line 23: expression has type struct bizarre[]
+File x_struct_const2.c Line 24: expression has type struct bizarre
+File x_struct_const2.c Line 25: expression has type int
+File x_struct_const2.c Line 26: expression has type int
+File x_struct_const2.c Line 27: expression has type const int
+File x_struct_const2.c Line 30: expression has type const struct bizarre[]
+File x_struct_const2.c Line 31: expression has type const struct bizarre
+File x_struct_const2.c Line 32: expression has type const int
+File x_struct_const2.c Line 33: expression has type const int
+File x_struct_const2.c Line 34: expression has type const int

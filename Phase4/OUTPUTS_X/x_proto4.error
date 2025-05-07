@@ -1,0 +1,3 @@
+Type checking error in file x_proto4.c line 16
+	Function 'myfunc' already has a definition.
+	Previous definition at file x_proto4.c line 2

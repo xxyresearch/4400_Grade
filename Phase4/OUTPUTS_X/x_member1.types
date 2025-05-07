@@ -1,0 +1,5 @@
+File x_member1.c Line 11: expression has type struct stack
+File x_member1.c Line 12: expression has type int
+File x_member1.c Line 13: expression has type int[]
+File x_member1.c Line 14: expression has type int
+File x_member1.c Line 20: expression has type int

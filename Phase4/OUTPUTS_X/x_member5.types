@@ -1,0 +1,22 @@
+File x_member5.c Line 53: expression has type struct program
+File x_member5.c Line 54: expression has type int
+File x_member5.c Line 55: expression has type struct module[]
+File x_member5.c Line 56: expression has type struct module
+File x_member5.c Line 57: expression has type struct function[]
+File x_member5.c Line 58: expression has type struct function
+File x_member5.c Line 59: expression has type char[]
+File x_member5.c Line 60: expression has type struct stmt[]
+File x_member5.c Line 61: expression has type struct stmt
+File x_member5.c Line 62: expression has type struct location
+File x_member5.c Line 63: expression has type char[]
+File x_member5.c Line 64: expression has type char
+File x_member5.c Line 66: expression has type struct formula
+File x_member5.c Line 67: expression has type int
+File x_member5.c Line 68: expression has type struct node[]
+File x_member5.c Line 69: expression has type struct node
+File x_member5.c Line 70: expression has type char
+File x_member5.c Line 71: expression has type struct rational
+File x_member5.c Line 72: expression has type struct bigint
+File x_member5.c Line 73: expression has type int
+File x_member5.c Line 74: expression has type char[]
+File x_member5.c Line 75: expression has type char

@@ -1,0 +1,26 @@
+.class public user1
+.super java/lang/Object
+.method public static func1 : (I)V
+    .code stack 0 locals 1
+    .end code
+.end method
+.method public static func2 : ()V
+    .code stack 1 locals 1
+    .end code
+.end method
+.method public static func3 : (IICF)V
+    .code stack 2 locals 6
+    .end code
+.end method
+.method public static main : ()I
+    .code stack 4 locals 0
+    .end code
+.end method
+.method <init> : ()V
+    .code stack 1 locals 1
+    .end code
+.end method
+.method public static main : ([Ljava/lang/String;)V
+    .code stack 1 locals 1
+    .end code
+.end method

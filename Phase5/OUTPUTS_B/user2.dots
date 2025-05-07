@@ -1,0 +1,34 @@
+.class public user2
+.super java/lang/Object
+.method public static func1 : (I)C
+    .code stack 2 locals 1
+    .end code
+.end method
+.method public static func2 : (I[C)F
+    .code stack 3 locals 3
+    .end code
+.end method
+.method public static func3 : ([II)I
+    .code stack 2 locals 11
+    .end code
+.end method
+.method public static sqr : (F)F
+    .code stack 2 locals 1
+    .end code
+.end method
+.method public static dist4 : (FFFFFFFF)F
+    .code stack 3 locals 8
+    .end code
+.end method
+.method public static bigstack : (FF)V
+    .code stack 16 locals 2
+    .end code
+.end method
+.method <init> : ()V
+    .code stack 1 locals 1
+    .end code
+.end method
+.method public static main : ([Ljava/lang/String;)V
+    .code stack 1 locals 1
+    .end code
+.end method

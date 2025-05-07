@@ -1,0 +1,2 @@
+Type checking error in file assign4.c line 5
+	Invalid assignment: int[] = int

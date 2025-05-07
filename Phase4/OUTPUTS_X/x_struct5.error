@@ -1,0 +1,3 @@
+Type checking error in file x_struct5.c line 43
+	In call to void foo(struct evil)
+	Parameter #1 should be (global) struct evil, was (local) struct evil

@@ -1,0 +1,3 @@
+Type checking error in file fcall7.c line 14
+	In call to void strange(int)
+	Parameter #1 should be int, was void

@@ -1,0 +1,4 @@
+File literals_14.c Line 2 Token 305 Text " 3; 'a'; 4.0; "
+File literals_14.c Line 4 Token 303 Text 123456789
+File literals_14.c Line 6 Token 305 Text "123456789"
+File literals_14.c Line 8 Token 304 Text 123456789.0

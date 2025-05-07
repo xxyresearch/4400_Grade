@@ -1,0 +1,3 @@
+Type checking error in file idents4.c line 16
+	parameter int a conflicts with previous
+	parameter int a in file idents4.c line 16

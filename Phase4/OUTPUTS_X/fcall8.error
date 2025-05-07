@@ -1,0 +1,3 @@
+Type checking error in file fcall8.c line 10
+	In call to void test(int, int, int, int)
+	Too many parameters given

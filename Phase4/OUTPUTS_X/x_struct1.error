@@ -1,0 +1,2 @@
+Type checking error in file x_struct1.c line 12
+	Unknown struct 'missing'

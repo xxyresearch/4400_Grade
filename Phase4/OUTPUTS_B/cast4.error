@@ -1,0 +1,2 @@
+Type checking error in file cast4.c line 8
+	Can't cast from void to char

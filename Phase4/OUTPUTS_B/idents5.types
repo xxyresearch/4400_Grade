@@ -1,0 +1,5 @@
+File idents5.c Line 8: expression has type int
+File idents5.c Line 9: expression has type int
+File idents5.c Line 10: expression has type int[]
+File idents5.c Line 11: expression has type float
+File idents5.c Line 12: expression has type char[]

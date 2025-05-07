@@ -1,0 +1,2 @@
+Type checking error in file logic6.c line 8
+	Invalid operand types float[] == float[]

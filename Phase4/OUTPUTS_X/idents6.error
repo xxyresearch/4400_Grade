@@ -1,0 +1,3 @@
+Type checking error in file idents6.c line 24
+	Duplicate local variable 'bad'.
+	Previous at file idents6.c line 23

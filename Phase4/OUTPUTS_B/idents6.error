@@ -1,0 +1,3 @@
+Type checking error in file idents6.c line 24
+	local variable int bad conflicts with previous
+	local variable int bad in file idents6.c line 23

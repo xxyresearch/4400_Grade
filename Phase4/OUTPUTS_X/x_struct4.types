@@ -1,0 +1,4 @@
+File x_struct4.c Line 33: expression has type struct local
+File x_struct4.c Line 34: expression has type struct pair
+File x_struct4.c Line 35: expression has type struct window
+File x_struct4.c Line 36: expression has type struct screen

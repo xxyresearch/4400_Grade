@@ -1,0 +1,22 @@
+.class public noreturn1
+.super java/lang/Object
+.method public static voidfunc : (I)V
+    .code stack 1 locals 1
+    .end code
+.end method
+.method public static floatfunc : ()F
+    .code stack 1 locals 0
+    .end code
+.end method
+.method public static main : ()I
+    .code stack 1 locals 0
+    .end code
+.end method
+.method <init> : ()V
+    .code stack 1 locals 1
+    .end code
+.end method
+.method public static main : ([Ljava/lang/String;)V
+    .code stack 1 locals 1
+    .end code
+.end method

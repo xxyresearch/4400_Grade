@@ -1,0 +1,2 @@
+Type checking error in file cast3.c line 6
+	Invalid operation: (char) int[]
